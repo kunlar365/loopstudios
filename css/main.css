@@ -21,6 +21,11 @@ body {
     margin: 0 auto;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* ***********************
       FIRST SECTION
 **************************** */
@@ -60,6 +65,10 @@ body {
     background-color: #fff;
     transform: scaleX(0);
     transition: transform 300ms ease-in-out;
+}
+
+.menu {
+    display: none;
 }
 
 .main-nav-link:hover::after {
@@ -157,7 +166,16 @@ body {
     margin-bottom: 20px;
 }
 
-.third-section .column8:hover {
+.row3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column8:hover h3 {
+    color: #000;
+}
+
+.third-section .column8 img:hover {
     opacity: 50%;
 }
 
@@ -169,12 +187,12 @@ body {
     margin-right: 0;
 }
 
-.third-section .texts {
+.third-section h3 {
     position: absolute;
-    top: 315px;
+    bottom: 0;
 }
 
-.third-section .texts h3 {
+.third-section  h3 {
     margin: 40px;
     color: #fff;
     font-size: 2.28rem;
@@ -182,10 +200,6 @@ body {
     font-family: 'Josefin',sans-serif;
     text-transform: uppercase;
     line-height: 32px;
-}
-
-.third-section .texts h3:hover {
-    color: black;
 }
 
 /* *******************************
@@ -207,6 +221,13 @@ body {
     margin-top: 45px;
 }
 
+.invite-links ul{
+    list-style: none;
+    padding: 0;
+}
+.invite-links li{
+    display: inline-block;
+}
 .main-footer .invite-links {
     margin-top: 25px;
 }

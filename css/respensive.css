@@ -1,0 +1,155 @@
+@media (max-width: 1199px) {
+    .first-section header {
+        padding: 64px 20px;
+    }
+
+    .first-section .first-text {
+        margin-left: 20px;
+    }
+
+    .second-section .gamer {
+        margin-left: 20px;
+    }
+
+    .gamer img {
+        width: 550px;
+    }
+
+    .second-section .text {
+        left: 460px;
+    }
+
+    .third-section .second-page {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .first-section {
+        background-position: center;
+    }
+
+    .main-nav-link {
+        margin: 0 5px;
+    }
+
+    .second-section .text {
+        left: 335px;
+        width: 389px;
+        padding: 0 20px;
+    }
+
+    .second-section h2 {
+        font-size: 2.42rem;
+    }
+
+    .second-section p {
+        font-size: 1rem;
+    }
+
+    .gamer img {
+        width: 400px;
+    }
+
+    .main-footer .links {
+        margin-left: 20px;
+    }
+
+    .main-footer .social-sets {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .first-section {
+        height: 580px;
+    }
+    .main-nav-link {
+        display: none;
+    }
+    .second-section {
+        margin-bottom: 50px;
+    }
+    .menu {
+        display: block;
+    }
+    .first-section .first-text{
+        width: 390px;
+        font-size: 3.14rem;
+        padding: 35px;
+    }
+    .second-section .gamer{
+        margin-right: 20px;
+    }
+    .gamer img {
+        width: 100%;
+    }
+    .second-section .text{
+        width: 100%;
+        text-align: center;
+        position: static;
+    }
+    .third-section .texts {
+        top: 35px;
+    }
+
+    .second-link a {
+        order: 10;
+    }
+    .column8 img {
+        object-fit: cover;
+        object-position: center;
+        height: 160px;
+        width: 415px;
+    }
+    .third-section .row{
+        justify-content: center;
+    }
+    .third-section .row2 {
+        justify-content: center;
+    }
+    .third-section .column8 {
+        margin-right: 0;
+    }
+    .third-section .second-link {
+        order: 8;
+        margin-top: 50px;
+    }
+    .third-section .second-page {
+        margin-left: 0;
+    }
+    .main-footer {
+        margin-top: 90px;
+    }
+
+    .main-footer {
+        height: 500px;
+        padding: 20px;
+    }
+    /* .main-footer .invite-link{
+        
+    } */
+    .invite-links ul li {
+        padding: 15px;
+        display: block;
+    }
+    .main-footer .invite-link {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-right: 0;
+    }
+    .main-footer .row {
+        display: block;
+    }
+    .main-footer .links{
+        text-align: center;
+        margin-left: 0;
+    }
+    .main-footer .social-sets {
+        text-align: center;
+    }
+}
+
+@media (max-width: 565px) {}
+
+@media (max-width: 480px) {}
