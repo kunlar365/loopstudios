@@ -150,12 +150,6 @@
     }
 }
 
-@media (max-width: 565px) {
-    .container {
-        max-width: ;
-    }
-}
-
 @media (max-width: 480px) {
     .first-section .first-text{
         width: 90%;
