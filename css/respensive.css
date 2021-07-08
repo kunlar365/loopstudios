@@ -167,4 +167,7 @@
     .third-section h2 {
         font-size: 2.42rem;
     }
+    .third-section .column8 {
+        width: 100%;
+    }
 }
