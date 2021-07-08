@@ -150,6 +150,18 @@
     }
 }
 
-@media (max-width: 565px) {}
+@media (max-width: 565px) {
+    .container {
+        max-width: ;
+    }
+}
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    .first-section .first-text{
+        width: 90%;
+        font-size: 2.14rem;
+    }
+    .container {
+        max-width: 100%;
+    }
+}
