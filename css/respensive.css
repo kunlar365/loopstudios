@@ -64,31 +64,100 @@
     .first-section {
         height: 580px;
     }
+
     .main-nav-link {
+        display: block;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    .main-nav-link::after {
+        width: 50px;
+        left: 50%;
+        margin-left: -25px;
+    }
+
+    .main-header::after {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        height: 603px;
+        color: black;
+    }
+    .main-nav {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 24px;
+        right: 24px;
+        /* margin-top: px; */
+        padding: 15px;
+        text-align: center;
+        background-color: #000;
+        border-radius: 4px;
+        z-index: 1;
+    }
+    .main-header .menu-toggle.open {
+        display: block;
+        background: transparent;
+        border: none;
+        color: #000;
+    }
+    .main-header .menu-toggle.close {
+        display: none;
+        background: transparent;
+        border: none;
+        color: #000;
+    }
+    .main-header.on .menu-toggle.open {
         display: none;
     }
+    .main-header.on .menu-toggle.close {
+        display: block;
+    }
+
+    .main-header nav {
+        display: none;
+    }
+
     .second-section {
         margin-bottom: 50px;
     }
-    .menu {
+
+    .main-nav {
         display: block;
+        position: absolute;
+        top: 88px;
+        left: 24px;
+        right: 24px;
+        border-radius: 4px;
+        color: #fff;
     }
-    .first-section .first-text{
+
+    .first-section .first-text {
         width: 390px;
         font-size: 3.14rem;
         padding: 35px;
     }
-    .second-section .gamer{
+
+    .second-section .gamer {
         margin-right: 20px;
     }
+
     .gamer img {
         width: 100%;
     }
-    .second-section .text{
+
+    .second-section .text {
         width: 100%;
         text-align: center;
         position: static;
     }
+
     .third-section .texts {
         top: 35px;
     }
@@ -96,28 +165,35 @@
     .second-link a {
         order: 10;
     }
+
     .column8 img {
         object-fit: cover;
         object-position: center;
         height: 160px;
         width: 415px;
     }
-    .third-section .row{
+
+    .third-section .row {
         justify-content: center;
     }
+
     .third-section .row2 {
         justify-content: center;
     }
+
     .third-section .column8 {
         margin-right: 0;
     }
+
     .third-section .second-link {
         order: 8;
         margin-top: 50px;
     }
+
     .third-section .second-page {
         margin-left: 0;
     }
+
     .main-footer {
         margin-top: 90px;
     }
@@ -126,6 +202,7 @@
         height: 500px;
         padding: 20px;
     }
+
     /* .main-footer .invite-link{
         
     } */
@@ -133,31 +210,37 @@
         padding: 15px;
         display: block;
     }
+
     .main-footer .invite-link {
         font-size: 1.3rem;
         font-weight: 600;
         margin-right: 0;
     }
+
     .main-footer .row {
         display: block;
     }
-    .main-footer .links{
+
+    .main-footer .links {
         text-align: center;
         margin-left: 0;
     }
+
     .main-footer .social-sets {
         text-align: center;
     }
 }
 
 @media (max-width: 480px) {
-    .first-section .first-text{
+    .first-section .first-text {
         width: 90%;
         font-size: 2.14rem;
     }
+
     .container {
         max-width: 100%;
     }
+
     .third-section h2 {
         font-size: 2.42rem;
     }
