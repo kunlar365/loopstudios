@@ -67,6 +67,10 @@ body {
     transition: transform 300ms ease-in-out;
 }
 
+.menu-toggle {
+    display: none;
+}
+
 .menu {
     display: none;
 }
